@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - defaults
+channel_priority: flexible
+show_channel_urls: true
+default_channels:
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main
+custom_channels:
+  conda-forge: https://mirrors.ustc.edu.cn/anaconda/cloud
