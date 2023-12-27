@@ -2,7 +2,7 @@
 
 该repo是本人Arch Linux下的一些配置文件
 
-### 开机免输入账号密码和startx命令，直接dwm桌面
+## 开机免输入账号密码和startx命令，直接dwm桌面
 
 ```shell
 vim /etc/systemd/system/getty.target.wants/getty@tty1.service
