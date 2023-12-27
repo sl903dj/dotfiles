@@ -166,3 +166,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# 自动登录dwm
+if [[ ! $DISPLAY && $(tty) == "/dev/tty1" ]]; then
+	exec startx
+
+fi
