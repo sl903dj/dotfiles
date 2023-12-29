@@ -63,4 +63,30 @@ vim文件管理器ranger
 ```shell
 pacman -S ranger
 ```
+ranger实现图片预览，需要安装w3m或ueberzug
+```shell
+pacman -S w3m
+pacman -S ueberzug
+```
+并在rc.conf中设置
+```shell
+set preview_images_method ueberzug
+```
 
+复制粘贴copyq
+
+```shell
+pacman -S copyq
+```
+
+截图工具flameshot
+
+```shell
+pacman -S flameshot
+```
+
+下载器aria2
+
+```shell
+pacman -S aria2
+```
