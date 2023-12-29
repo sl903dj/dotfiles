@@ -30,3 +30,37 @@ if [[ ! $DISPLAY && $(tty) == "/dev/tty1" ]]; then
 fi
 ```
 
+## 配套安装
+
+终端Alacritty
+
+```shell
+pacman -S alacritty
+```
+
+本地使用Alacritty，SSH远程SHELL中出现退格键变空格键（实际上退格键已生效，但显示效果是退格变空格），可能是远程系统terminfo数据库（/usr/share/terminfo/a/alacritty*）中没有Alacritty条目。此时需要将本地/usr/share/terminfo/a/alacritty/alacritty.terminfo复制到远程系统。
+
+消息通知dunst
+
+```shell
+pacman -S dunst
+```
+
+dwm透明效果picom
+
+```shell
+pacman -S picom
+```
+
+启动器rofi
+
+```shell
+pacman -S rofi
+```
+
+vim文件管理器ranger
+
+```shell
+pacman -S ranger
+```
+
