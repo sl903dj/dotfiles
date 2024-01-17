@@ -69,7 +69,7 @@ class empty(Command):
     """
 
     def execute(self):
-        self.fm.run("rm -rf /home/#{USER}/.local/share/Trash/{*,.[^.]*}")
+        self.fm.run("rm -rf /home/xiaosu/.local/share/Trash/{*,.[^.]*}")
 
 # 创建一个文件夹并进入
 class mkcd(Command):
