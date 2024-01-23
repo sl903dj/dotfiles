@@ -90,3 +90,10 @@ pacman -S flameshot
 ```shell
 pacman -S aria2
 ```
+
+自动挂载U盘
+
+```shell
+pacman -S udisks2 udiskie
+```
+

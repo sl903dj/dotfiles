@@ -69,6 +69,6 @@ picom -CGb &
 copyq &
 dunst &
 nm-applet &
-udiskie -ANt &
+udiskie -ans &
 
 exec dwm
