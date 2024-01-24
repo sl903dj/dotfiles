@@ -107,3 +107,4 @@ conky主题配置需要将文件夹`.harmattan-assets`放置在`~`，同时该�
 ```shell
 pacman -S jq bc
 ```
+conky主题fork自zagortenay333<https://github.com/zagortenay333/conky_themes>并修改了自己需要的内容
