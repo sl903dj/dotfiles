@@ -2,7 +2,7 @@
 
 该repo是本人Arch Linux下的一些配置文件
 
-## 开机免输入账号密码和startx命令，直接dwm桌面
+## 开机免输入账号密码和`startx`命令，直接进入dwm桌面
 
 ```shell
 vim /etc/systemd/system/getty.target.wants/getty@tty1.service
@@ -38,7 +38,7 @@ fi
 pacman -S alacritty
 ```
 
-本地使用Alacritty，SSH远程SHELL中出现退格键变空格键（实际上退格键已生效，但显示效果是退格变空格），可能是远程系统terminfo数据库（/usr/share/terminfo/a/alacritty*）中没有Alacritty条目。此时需要将本地/usr/share/terminfo/a/alacritty/alacritty.terminfo复制到远程系统。
+本地使用Alacritty，SSH远程SHELL中出现退格键变空格键（实际上退格键已生效，但显示效果是退格变空格），可能是远程系统terminfo数据库`/usr/share/terminfo/a/alacritty*`中没有Alacritty条目。此时需要将本地`/usr/share/terminfo/a/alacritty/alacritty.terminfo`复制到远程系统。
 
 消息通知dunst
 
@@ -63,7 +63,7 @@ vim文件管理器ranger
 ```shell
 pacman -S ranger
 ```
-ranger实现图片预览，需要安装w3m或ueberzug
+ranger实现图片预览，需要安装`w3m`或`ueberzug``
 ```shell
 pacman -S w3m
 pacman -S ueberzug
@@ -97,3 +97,13 @@ pacman -S aria2
 pacman -S udisks2 udiskie
 ```
 
+系统监控conky
+
+```shell
+pacman -S conky
+```
+conky主题配置需要将文件夹`.harmattan-assets`放置在`~`，同时该主题需要配套安装`jq`和`bc`
+
+```shell
+pacman -S jq bc
+```

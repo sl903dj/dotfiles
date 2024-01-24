@@ -148,6 +148,8 @@ alias r='ranger'
 alias p='sudo pacman -Syu'
 alias c='clear'
 alias y='yay'
+alias n='neofetch'
+alias la='ls -al'
 
 eval $(thefuck --alias fuck)
 

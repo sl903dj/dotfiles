@@ -65,8 +65,9 @@ feh --bg-fill --randomize /home/xiaosu/Pictures/pacman.png
 wmname LG3D &
 fcitx5 &
 slstatus &
-picom -CGb &
+picom -CGb
 copyq &
+conky &
 dunst &
 nm-applet &
 udiskie -ans &
