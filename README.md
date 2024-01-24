@@ -8,7 +8,7 @@
 vim /etc/systemd/system/getty.target.wants/getty@tty1.service
 ```
 
-修改ExecStart一行
+修改`ExecStart`一行
 
 ```sh
 [Service]
@@ -21,7 +21,7 @@ ExecStart=-/sbin/agetty -o '-p -f xiaosu' -n -a xiaosu --noclear %I $TERM
 ...
 ```
 
-修改.zshrc，最下面添加如下一行
+修改`.zshrc`，最下面添加如下一行
 
 ```sh
 if [[ ! $DISPLAY && $(tty) == "/dev/tty1" ]]; then
@@ -63,12 +63,12 @@ vim文件管理器ranger
 ```shell
 pacman -S ranger
 ```
-ranger实现图片预览，需要安装`w3m`或`ueberzug``
+ranger实现图片预览，需要安装`w3m`或`ueberzug`
 ```shell
 pacman -S w3m
 pacman -S ueberzug
 ```
-并在rc.conf中设置
+并在`rc.conf`中设置
 ```shell
 set preview_images_method ueberzug
 ```
