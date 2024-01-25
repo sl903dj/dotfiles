@@ -34,6 +34,8 @@ own_window_hints="undecorated,below,sticky,skip_taskbar,skip_pager",
 border_inner_margin=0,
 border_outer_margin=0,
 alignment="top_right",
+--xinerama_head取值0在主屏幕，取值1在副屏幕
+xinerama_head=0,
 own_window_argb_visual=true,
 --own_window_argb_value=0,
 
@@ -68,7 +70,7 @@ color5="DCDCDC",
 --  API Key
 --  https://openweathermap.org/提供API
 -------------------------------------
-template6="b7cf4b16b2d432a024cc367860eef8ec",
+template6="",
 
 
 -------------------------------------
