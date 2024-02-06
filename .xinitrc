@@ -61,7 +61,8 @@ export AWT_TOOLKIT=MToolkit
 # 右接23寸1080p DPI96显示器设置
 xrandr --dpi 200 --fb 6080x3200 --output eDP-1 --mode 3200x2000 --scale 0.9999x0.9999 --pos 0x0 --output DP-1 --scale 1.5x1.5 --pos 3200x0 --panning 2880x1620+3200+0
 
-feh --bg-fill --randomize /home/xiaosu/Pictures/pacman.png
+# feh --bg-fill --randomize /home/xiaosu/Pictures/1600696508968_wallhaven-95g7ow.jpg
+/home/xiaosu/suckless/dwm/scripts/autochangewallpaper.sh &
 wmname LG3D &
 fcitx5 &
 slstatus &
