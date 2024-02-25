@@ -63,6 +63,7 @@ xrandr --dpi 200 --fb 6080x3200 --output eDP-1 --mode 3200x2000 --scale 0.9999x0
 
 # feh --bg-fill --randomize /home/xiaosu/Pictures/1600696508968_wallhaven-95g7ow.jpg
 /home/xiaosu/suckless/dwm/scripts/autochangewallpaper.sh &
+/home/xiaosu/suckless/dwm/scripts/statusbar.sh &
 wmname LG3D &
 fcitx5 &
 slstatus &
