@@ -108,3 +108,19 @@ conky主题配置需要将文件夹`.harmattan-assets`放置在`~`，同时该�
 pacman -S jq bc
 ```
 conky主题fork自zagortenay333<https://github.com/zagortenay333/conky_themes>并修改了自己需要的内容
+
+农历显示lunar-date
+
+```shell
+yay -S lunar-date
+```
+如果农历显示拼音，检查是否安装了`lunar-date.mo`文件:
+```shell
+/usr/share/locale/zh_CN/LC_MESSAGES/lunar-date.mo
+/usr/share/locale/zh_HK/LC_MESSAGES/lunar-date.mo
+/usr/share/locale/zh_TW/LC_MESSAGES/lunar-date.mo
+```
+并将luanr-date.mo文件复制到`/usr/share/locale/en_US/LC_MESSAGES`目录下
+```shell
+cp /usr/share/locale/zh_CN/LC_MESSAGES/lunar-date.mo /usr/share/locale/en_US/LC_MESSAGES
+```
