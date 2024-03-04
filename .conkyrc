@@ -141,7 +141,7 @@ ${color1}${alignr 52}${voffset 7}${execi 300 jq -r .wind.speed ~/.cache/harmatta
 \
 \
 ${voffset -117}${font WenQuanYi Micro Hei Mono :size=22}${alignc}${color1}${time %H:%M}${font}${color}
-${voffset 4}${font WenQuanYi Micro Hei :size=10}${alignc}${color2}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%A, %B %-d"}${font}${color}
+${voffset 4}${font WenQuanYi Micro Hei :size=10}${alignc}${color2}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%A, %b%d  "}${execi 300 lunar-date | awk -F '年' 'NR == 2 {print $2}'}${font}${color}
 \
 \
 \
