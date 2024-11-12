@@ -1,5 +1,3 @@
-# 实时重载配置文件，不用重启测试配置选项
-live_config_reload = true
 
 [colors.bright]
 black = "0x2e3436"
@@ -37,22 +35,28 @@ shape = "Underline"
 size = 13.0
 
 [font.bold]
-family = "Source Code Pro"
+family = "JetBrainsMono Nerd Font Mono"
 style = "Bold"
 
 [font.italic]
-family = "Source Code Pro"
+family = "JetBrainsMono Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "Source Code Pro"
+family = "JetBrainsMono Nerd Font Mono"
 style = "Regular"
 
 [window]
 # 背景半透明，方便抄代码
-opacity = 0.8
+opacity = 0.75
 
 [window.dimensions]
 # 窗口大小
 columns = 90
 lines = 27
+
+[general]
+# 实时重载配置文件，不用重启测试配置选项
+live_config_reload = true
+
+
