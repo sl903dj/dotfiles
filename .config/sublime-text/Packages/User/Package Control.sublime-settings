@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"BracketHighlighter",
+		"ChineseLocalizations",
+		"Color Highlighter",
+		"Compare Side-By-Side",
+		"ConvertToUTF8",
+		"Package Control",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeTmpl",
+		"Theme - Monokai Pro",
+		"View In Browser",
+	],
+}

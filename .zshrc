@@ -141,15 +141,47 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/autojump/autojump.zsh
 
+## java环境配置
+#export JAVA_HOME=/usr/local/java/jdk1.8.0_202
+#export JER_HOME=${JAVA_HOME}/jre
+#export CLASSPATH=.:${JAVA_HOME}/lib/dt.jar:${JRE_HOME}/lib/tools.jar
+#export PATH=${JAVA_HOME}/bin:$PATH
+#
+## hive环境配置
+#export HIVE_HOME=/usr/local/hadoop/hive
+#export PATH=$PATH:$HIVE_HOME/bin
+#
+## zookeeper环境配置
+#export ZOO_HOME=/usr/local/hadoop/zookeeper
+#export PATH=$PATH:$ZOO_HOME/bin
+#
+## dwmblocks
+#export DWMBLOCKS_HOME=/home/xiaosu/suckless/dwm
+#export PATH=$PATH:$DWMBLOCKS_HOME/statusbar
+#
+## maven环境配置
+#export MAVEN_HOME=/usr/local/maven/apache-maven-3.9.6
+#export PATH=${MAVEN_HOME}/bin:${PATH}
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export EDITOR='nvim'
+export TERMINAL='alacritty'
+# export PATH="home/xiaosu/suckless/dwm/statusbar:$PATH"
+
+alias lg='lazygit'
+alias ya='yazi'
 alias r='ranger'
 alias p='sudo pacman -Syu'
 alias c='clear'
 alias y='yay'
 alias n='neofetch'
 alias la='ls -al'
+alias ts='sudo timeshift-gtk'
+alias vim='nvim'
+alias vi='nvim'
+alias v='nvim'
 
 eval $(thefuck --alias fuck)
 
@@ -168,7 +200,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# 自动登录dwm
 if [[ ! $DISPLAY && $(tty) == "/dev/tty1" ]]; then
 	exec startx
 

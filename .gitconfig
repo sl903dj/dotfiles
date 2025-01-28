@@ -1,0 +1,12 @@
+[merge]
+	tool = kdiff3
+[user]
+	email = sl903dj@hotmail.com
+	name = sl903dj
+	password = PASSWORD-sl903dj
+[init]
+	defaultBranch = master
+[http]
+	postBuffer = 524288000
+[credential]
+	helper = store

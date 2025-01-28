@@ -8,15 +8,7 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
-
-
-
-
-
-
-
     xrdb -merge $sysresources
-
 fi
 
 if [ -f $sysmodmap ]; then
@@ -24,15 +16,7 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
-
-
-
-
-
-
-
     xrdb -merge "$userresources"
-
 fi
 
 if [ -f "$usermodmap" ]; then
@@ -42,10 +26,10 @@ fi
 # start some nice programs
 
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
- for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
-  [ -x "$f" ] && . "$f"
- done
- unset f
+    for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
+        [ -x "$f" ] && . "$f"
+    done
+    unset f
 fi
 
 export LANG=zh_CN.UTF-8
@@ -55,19 +39,31 @@ export LC_CTYPE=en_US.UTF-8
 export _JAVA_AWT_WM_NONREPARENTING=1
 export AWT_TOOLKIT=MToolkit
 
+#要将UI缩放为两倍大小：
+export GDK_SCALE=2
+#并同时不影响字体
+export GDK_DPI_SCALE=0.5
+
 # 笔记本不外接显示器设置
-# xrandr --output eDP-1 --mode 3200x2000 --rate 90.00
+xrandr --output eDP-1 --mode 3200x2000 --rate 90.00
+
+# 外接会议大屏
+# xrandr --output HDMI-1 --left-of eDP-1 --auto
 
 # 右接23寸1080p DPI96显示器设置
-xrandr --dpi 200 --fb 6080x3200 --output eDP-1 --mode 3200x2000 --scale 0.9999x0.9999 --pos 0x0 --output DP-1 --scale 1.5x1.5 --pos 3200x0 --panning 2880x1620+3200+0
+# xrandr --dpi 200 --fb 6080x2000 --output eDP-1 --mode 3200x2000 --scale 0.9999x0.9999 --pos 0x0 --output DP-1 --scale 1.5x1.5 --pos 3200x0 --panning 2880x1620+3200+0
 
-# feh --bg-fill --randomize /home/xiaosu/Pictures/1600696508968_wallhaven-95g7ow.jpg
+# 左接23寸1080p DPI96显示器设置
+# xrandr --dpi 200 --fb 6080x2000 --output eDP-1 --mode 3200x2000 --scale 0.9999x0.9999 --pos 2880x0 --output DP-1 --scale 1.5x1.5 --pos 0x0 --panning 2880x1620+0+0
+
+# feh --bg-fill --randomize /home/xiaosu/Pictures/wallpaper/1600696508968_wallhaven-95g7ow.jpg
 /home/xiaosu/suckless/dwm/scripts/autochangewallpaper.sh &
-/home/xiaosu/suckless/dwm/scripts/statusbar.sh &
+# /home/xiaosu/suckless/dwm/scripts/statusbar.sh &
 wmname LG3D &
 fcitx5 &
-slstatus &
-picom -CGb
+# slstatus &
+dwmblocks &
+picom -b
 copyq &
 conky &
 dunst &

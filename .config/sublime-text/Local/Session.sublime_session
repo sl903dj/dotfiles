@@ -1,0 +1,500 @@
+{
+	"file_history":
+	[
+	],
+	"folder_history":
+	[
+	],
+	"last_version": 4192,
+	"last_window_id": 9,
+	"log_indexing": false,
+	"next_update_check": 1737940674,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 977.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			2.0,
+			21.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"view",
+						"View: Toggle Menu"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/xiaosu/Documents/补充TSF产品介绍视频链接和Credis2.6版本能力介绍视频链接.txt",
+				"/home/xiaosu/Documents/function.sql",
+				"/home/xiaosu/IdeaProjects/安徽铜陵/业务后台/文件夹类目说明.txt",
+				"/home/xiaosu/.conkyrc",
+				"/home/xiaosu/Downloads/1.java",
+				"/home/xiaosu/Downloads/converted/data_init/9.设施设备类型初始化数据.sql",
+				"/usr/lib/office6/mui/lang_list/lang_list_offline_th.json",
+				"/usr/lib/office6/mui/lang_list/lang_list_offline.json",
+				"/usr/lib/office6/mui/lang_list/lang_list_community.json",
+				"/usr/lib/office6/mui/lang_list/lang_list.json",
+				"/usr/lib/office6/mui/lang_list/beta.png",
+				"/home/xiaosu/.config/dunst/dunstrc.bak",
+				"/home/xiaosu/Documents/WeChat_Data/home/jar-org-center-2024-11-05.out",
+				"/home/xiaosu/Documents/WeChat_Data/home/jar-pt-tyrz-2024-11-05.out",
+				"/home/xiaosu/IdeaProjects/安徽铜陵/业务后台/dataAcquisition-service/src/main/java/com/shineyue/datareadwrite/controller/StartReadAndWrite.java",
+				"/home/xiaosu/.config/sublime-text/Packages/Alignment/Base File.sublime-settings",
+				"/home/xiaosu/Downloads/Apifox Linux版运行方法.md",
+				"/home/xiaosu/Documents/#统计最大年龄的员工信息.sql",
+				"/home/xiaosu/Documents/安徽铜陵/业务后台/common/common-service/src/main/java/com/shineyue/common/util/RedisUtils.java",
+				"/home/xiaosu/Documents/安徽铜陵/业务后台/service-framework/pom-common.xml",
+				"/home/xiaosu/Downloads/后台配置文件/common.properties",
+				"/home/xiaosu/Documents/application.properties",
+				"/home/xiaosu/Documents/安徽铜陵/业务后台/eams-service/pom.xml",
+				"/home/xiaosu/Documents/安徽铜陵/业务后台/service-framework/pom-eams.xml",
+				"/home/xiaosu/Downloads/后台配置文件/eams-service.properties",
+				"/home/xiaosu/Downloads/后台配置文件/bpm-web.yml",
+				"/home/xiaosu/Downloads/后台配置文件/bpm-service.yml",
+				"/home/xiaosu/Downloads/restart.sh",
+				"/home/xiaosu/IdeaProjects/项目源码/业务后台/zjjg-clf/yszjjg-service/pom.xml",
+				"/home/xiaosu/IdeaProjects/项目源码/业务后台/service-framework/pom.xml"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"\\\"\\\"'>\"",
+					"='",
+					"\",",
+					"\\\"\\\"'>\"",
+					"'>\"",
+					"='",
+					"null'>",
+					"\\\"\\\"'>\"",
+					"='",
+					"\\\"\\\"'>",
+					"='"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"''\\\">\\n\"",
+					"=\\\"",
+					"\" +",
+					"''\\\">\\n\" +",
+					"\\\">\" +",
+					"=\\\"",
+					"null \\\">\\n",
+					"''\\\">\\n",
+					"=\\\"",
+					"''\\\">\\n",
+					"=\\\""
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": false,
+			"output.SFTP":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 241.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 797.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"view",
+						"View: Toggle Menu"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/xiaosu/IdeaProjects/安徽铜陵/业务后台"
+			],
+			"file_history":
+			[
+				"/home/xiaosu/Documents/补充TSF产品介绍视频链接和Credis2.6版本能力介绍视频链接.txt",
+				"/home/xiaosu/Documents/function.sql",
+				"/home/xiaosu/IdeaProjects/安徽铜陵/业务后台/文件夹类目说明.txt",
+				"/home/xiaosu/.conkyrc",
+				"/home/xiaosu/Downloads/1.java",
+				"/home/xiaosu/Downloads/converted/data_init/9.设施设备类型初始化数据.sql",
+				"/usr/lib/office6/mui/lang_list/lang_list_offline_th.json",
+				"/usr/lib/office6/mui/lang_list/lang_list_offline.json",
+				"/usr/lib/office6/mui/lang_list/lang_list_community.json",
+				"/usr/lib/office6/mui/lang_list/lang_list.json",
+				"/usr/lib/office6/mui/lang_list/beta.png",
+				"/home/xiaosu/.config/dunst/dunstrc.bak",
+				"/home/xiaosu/Documents/WeChat_Data/home/jar-org-center-2024-11-05.out",
+				"/home/xiaosu/Documents/WeChat_Data/home/jar-pt-tyrz-2024-11-05.out",
+				"/home/xiaosu/IdeaProjects/安徽铜陵/业务后台/dataAcquisition-service/src/main/java/com/shineyue/datareadwrite/controller/StartReadAndWrite.java",
+				"/home/xiaosu/.config/sublime-text/Packages/Alignment/Base File.sublime-settings",
+				"/home/xiaosu/Downloads/Apifox Linux版运行方法.md",
+				"/home/xiaosu/Documents/#统计最大年龄的员工信息.sql",
+				"/home/xiaosu/Documents/安徽铜陵/业务后台/common/common-service/src/main/java/com/shineyue/common/util/RedisUtils.java",
+				"/home/xiaosu/Documents/安徽铜陵/业务后台/service-framework/pom-common.xml",
+				"/home/xiaosu/Downloads/后台配置文件/common.properties",
+				"/home/xiaosu/Documents/application.properties",
+				"/home/xiaosu/Documents/安徽铜陵/业务后台/eams-service/pom.xml",
+				"/home/xiaosu/Documents/安徽铜陵/业务后台/service-framework/pom-eams.xml",
+				"/home/xiaosu/Downloads/后台配置文件/eams-service.properties",
+				"/home/xiaosu/Downloads/后台配置文件/bpm-web.yml",
+				"/home/xiaosu/Downloads/后台配置文件/bpm-service.yml",
+				"/home/xiaosu/Downloads/restart.sh",
+				"/home/xiaosu/IdeaProjects/项目源码/业务后台/zjjg-clf/yszjjg-service/pom.xml",
+				"/home/xiaosu/IdeaProjects/项目源码/业务后台/service-framework/pom.xml"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"\\\"\\\"'>\"",
+					"='",
+					"\",",
+					"\\\"\\\"'>\"",
+					"'>\"",
+					"='",
+					"null'>",
+					"\\\"\\\"'>\"",
+					"='",
+					"\\\"\\\"'>",
+					"='"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"''\\\">\\n\"",
+					"=\\\"",
+					"\" +",
+					"''\\\">\\n\" +",
+					"\\\">\" +",
+					"=\\\"",
+					"null \\\">\\n",
+					"''\\\">\\n",
+					"=\\\"",
+					"''\\\">\\n",
+					"=\\\""
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/xiaosu/IdeaProjects/安徽铜陵/业务后台"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.SFTP":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,1,20,798,997,1600,1000,0",
+			"project": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 241.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

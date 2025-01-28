@@ -1,9 +1,12 @@
+auto_activate_base: false
+show_channel_urls: true
+ssl_verify: false
 channels:
   - conda-forge
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
   - defaults
-channel_priority: flexible
-show_channel_urls: true
-default_channels:
-  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main
-custom_channels:
-  conda-forge: https://mirrors.ustc.edu.cn/anaconda/cloud
